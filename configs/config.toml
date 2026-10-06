@@ -1,0 +1,11 @@
+[presence]
+show_commander = true
+show_streak = true
+show_party_size = true
+use_flavor_text = true
+
+[tracking]
+track_mission_history = true
+
+[discord]
+application_id = "1556525863405621359"
