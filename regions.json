@@ -1,0 +1,1186 @@
+[
+  {
+    "displayName": {
+      "de": "PvE_01_Difficulty_04",
+      "ru": "PvE_01_Difficulty_04",
+      "ko": "PvE_01_Difficulty_04",
+      "pt-br": "PvE_01_Difficulty_04",
+      "en": "PvE_01_Difficulty_04",
+      "it": "PvE_01_Difficoltà_04",
+      "fr": "PvE_01_Difficulty_04",
+      "es": "PvE_01_Difficulty_04",
+      "ar": "PvE_01_Difficulty_04",
+      "ja": "PvE_01_Difficulty_04",
+      "pl": "PvE_01_Difficulty_04",
+      "es-419": "PvE_01_Difficulty_04",
+      "tr": "PvE_01_Difficulty_04"
+    },
+    "uniqueId": "Region_PvE_01_Difficulty_04",
+    "regionTags": {
+      "gameplayTags": [
+        {
+          "tagName": "Stat.Theater.PvE01.Difficulty04"
+        }
+      ]
+    },
+    "tileIndices": [
+      0,
+      1,
+      14,
+      18,
+      20
+    ],
+    "regionThemeIcon": "None",
+    "missionData": {
+      "missionWeights": [
+        {
+          "weight": 1.0,
+          "missionGenerator": "/SaveTheWorld/World/MissionGens/MissionGen_1Gate_Short.MissionGen_1Gate_Short_C"
+        },
+        {
+          "weight": 1.0,
+          "missionGenerator": "/SaveTheWorld/World/MissionGens/MissionGen_RetrieveTheData.MissionGen_RetrieveTheData_C"
+        },
+        {
+          "weight": 1.0,
+          "missionGenerator": "/SaveTheWorld/World/MissionGens/MissionGen_LaunchTheBalloon.MissionGen_LaunchTheBalloon_C"
+        }
+      ],
+      "difficultyWeights": [
+        {
+          "weight": 1.0,
+          "difficultyInfo": {
+            "dataTable": "/Script/Engine.DataTable'/SaveTheWorld/Balance/DataTables/GameDifficultyGrowthBounds.GameDifficultyGrowthBounds'",
+            "rowName": "Theater_Start_Zone4"
+          }
+        }
+      ],
+      "numMissionsAvailable": 4,
+      "numMissionsToChange": 4,
+      "missionChangeFrequency": 0.5
+    },
+    "requirements": {
+      "commanderLevel": 0,
+      "personalPowerRating": 0,
+      "maxPersonalPowerRating": 0,
+      "partyPowerRating": 0,
+      "maxPartyPowerRating": 0,
+      "activeQuestDefinitions": [],
+      "questDefinition": "/Script/FortniteGame.FortQuestItemDefinition_Campaign'/SaveTheWorld/Quests/Outpost/OutpostQuest_T1_L4.OutpostQuest_T1_L4'",
+      "objectiveStatHandle": {
+        "dataTable": "None",
+        "rowName": "None"
+      },
+      "uncompletedQuestDefinition": "None",
+      "itemDefinition": "None",
+      "eventFlag": ""
+    },
+    "missionAlertRequirements": [
+      {
+        "categoryName": "StormCategory",
+        "requirements": {
+          "commanderLevel": 0,
+          "personalPowerRating": 0,
+          "maxPersonalPowerRating": 0,
+          "partyPowerRating": 0,
+          "maxPartyPowerRating": 0,
+          "activeQuestDefinitions": [],
+          "questDefinition": "/Script/FortniteGame.FortQuestItemDefinition_Campaign'/STW_Missions/Quests/Outpost/OutpostQuest_T1_L3.OutpostQuest_T1_L3'",
+          "objectiveStatHandle": {
+            "dataTable": "None",
+            "rowName": "None"
+          },
+          "uncompletedQuestDefinition": "None",
+          "itemDefinition": "None",
+          "eventFlag": ""
+        }
+      }
+    ]
+  },
+  {
+    "displayName": {
+      "en": "PvE_01_Difficulty_03_Group"
+    },
+    "uniqueId": "Region_PvE_01_Difficulty_03_Group",
+    "regionTags": {
+      "gameplayTags": [
+        {
+          "tagName": "Stat.Theater.PvE01.Difficulty03"
+        }
+      ]
+    },
+    "tileIndices": [
+      2
+    ],
+    "regionThemeIcon": "None",
+    "missionData": {
+      "missionWeights": [
+        {
+          "weight": 1.0,
+          "missionGenerator": "/SaveTheWorld/World/MissionGens/MissionGen_1Gate_Group.MissionGen_1Gate_Group_C"
+        },
+        {
+          "weight": 1.0,
+          "missionGenerator": "/SaveTheWorld/World/MissionGens/MissionGen_RideTheLightning_Group.MissionGen_RideTheLightning_Group_C"
+        },
+        {
+          "weight": 1.0,
+          "missionGenerator": "/SaveTheWorld/World/MissionGens/MissionGen_RetrieveTheData_Group.MissionGen_RetrieveTheData_Group_C"
+        },
+        {
+          "weight": 1.0,
+          "missionGenerator": "/STW_Mission_Hunt/MissionGen_HTM.MissionGen_HTM_C"
+        }
+      ],
+      "difficultyWeights": [
+        {
+          "weight": 1.0,
+          "difficultyInfo": {
+            "dataTable": "/Script/Engine.DataTable'/SaveTheWorld/Balance/DataTables/GameDifficultyGrowthBounds.GameDifficultyGrowthBounds'",
+            "rowName": "Theater_Start_Group_Zone3"
+          }
+        }
+      ],
+      "numMissionsAvailable": 1,
+      "numMissionsToChange": 1,
+      "missionChangeFrequency": 0.5
+    },
+    "requirements": {
+      "commanderLevel": 0,
+      "personalPowerRating": 0,
+      "maxPersonalPowerRating": 0,
+      "partyPowerRating": 0,
+      "maxPartyPowerRating": 0,
+      "activeQuestDefinitions": [],
+      "questDefinition": "/Script/FortniteGame.FortQuestItemDefinition_Campaign'/STW_Missions/Quests/Outpost/OutpostQuest_T1_L3.OutpostQuest_T1_L3'",
+      "objectiveStatHandle": {
+        "dataTable": "None",
+        "rowName": "None"
+      },
+      "uncompletedQuestDefinition": "None",
+      "itemDefinition": "None",
+      "eventFlag": ""
+    },
+    "missionAlertRequirements": [
+      {
+        "categoryName": "StormCategory",
+        "requirements": {
+          "commanderLevel": 0,
+          "personalPowerRating": 0,
+          "maxPersonalPowerRating": 0,
+          "partyPowerRating": 0,
+          "maxPartyPowerRating": 0,
+          "activeQuestDefinitions": [],
+          "questDefinition": "/Script/FortniteGame.FortQuestItemDefinition_Campaign'/SaveTheWorld/Quests/Outpost/OutpostQuest_T1_L2.OutpostQuest_T1_L2'",
+          "objectiveStatHandle": {
+            "dataTable": "None",
+            "rowName": "None"
+          },
+          "uncompletedQuestDefinition": "None",
+          "itemDefinition": "None",
+          "eventFlag": ""
+        }
+      }
+    ]
+  },
+  {
+    "displayName": {
+      "de": "PvE_01_Difficulty_02",
+      "ru": "PvE_01_Difficulty_02",
+      "ko": "PvE_01_Difficulty_02",
+      "pt-br": "PvE_01_Difficulty_02",
+      "en": "PvE_01_Difficulty_02",
+      "it": "PvE_01_Difficoltà_02",
+      "fr": "PvE_01_Difficulty_02",
+      "es": "PvE_01_Difficulty_02",
+      "ar": "PvE_01_Difficulty_02",
+      "ja": "PvE_01_Difficulty_02",
+      "pl": "PvE_01_Difficulty_02",
+      "es-419": "PvE_01_Difficulty_02",
+      "tr": "PvE_01_Difficulty_02"
+    },
+    "uniqueId": "Region_PvE_01_Difficulty_02",
+    "regionTags": {
+      "gameplayTags": [
+        {
+          "tagName": "Stat.Theater.PvE01.Difficulty02"
+        }
+      ]
+    },
+    "tileIndices": [
+      3,
+      29,
+      38
+    ],
+    "regionThemeIcon": "None",
+    "missionData": {
+      "missionWeights": [
+        {
+          "weight": 1.0,
+          "missionGenerator": "/SaveTheWorld/World/MissionGens/MissionGen_1Gate_Short.MissionGen_1Gate_Short_C"
+        },
+        {
+          "weight": 1.0,
+          "missionGenerator": "/SaveTheWorld/World/MissionGens/MissionGen_RetrieveTheData.MissionGen_RetrieveTheData_C"
+        }
+      ],
+      "difficultyWeights": [
+        {
+          "weight": 1.0,
+          "difficultyInfo": {
+            "dataTable": "/Script/Engine.DataTable'/SaveTheWorld/Balance/DataTables/GameDifficultyGrowthBounds.GameDifficultyGrowthBounds'",
+            "rowName": "Theater_Start_Zone2"
+          }
+        }
+      ],
+      "numMissionsAvailable": 3,
+      "numMissionsToChange": 3,
+      "missionChangeFrequency": 0.5
+    },
+    "requirements": {
+      "commanderLevel": 0,
+      "personalPowerRating": 0,
+      "maxPersonalPowerRating": 0,
+      "partyPowerRating": 0,
+      "maxPartyPowerRating": 0,
+      "activeQuestDefinitions": [],
+      "questDefinition": "/Script/FortniteGame.FortQuestItemDefinition_Campaign'/SaveTheWorld/Quests/Outpost/OutpostQuest_T1_L2.OutpostQuest_T1_L2'",
+      "objectiveStatHandle": {
+        "dataTable": "None",
+        "rowName": "None"
+      },
+      "uncompletedQuestDefinition": "None",
+      "itemDefinition": "None",
+      "eventFlag": ""
+    },
+    "missionAlertRequirements": [
+      {
+        "categoryName": "StormCategory",
+        "requirements": {
+          "commanderLevel": 0,
+          "personalPowerRating": 0,
+          "maxPersonalPowerRating": 0,
+          "partyPowerRating": 0,
+          "maxPartyPowerRating": 0,
+          "activeQuestDefinitions": [],
+          "questDefinition": "/Script/FortniteGame.FortQuestItemDefinition_Campaign'/SaveTheWorld/Quests/Outpost/OutpostQuest_T1_L1.OutpostQuest_T1_L1'",
+          "objectiveStatHandle": {
+            "dataTable": "None",
+            "rowName": "None"
+          },
+          "uncompletedQuestDefinition": "None",
+          "itemDefinition": "None",
+          "eventFlag": ""
+        }
+      }
+    ]
+  },
+  {
+    "displayName": {
+      "de": "PvE_01_Difficulty_05",
+      "ru": "PvE_01_Difficulty_05",
+      "ko": "PvE_01_Difficulty_05",
+      "pt-br": "PvE_01_Difficulty_05",
+      "en": "PvE_01_Difficulty_05",
+      "it": "PvE_01_Difficoltà_05",
+      "fr": "PvE_01_Difficulty_05",
+      "es": "PvE_01_Difficulty_05",
+      "ar": "PvE_01_Difficulty_05",
+      "ja": "PvE_01_Difficulty_05",
+      "pl": "PvE_01_Difficulty_05",
+      "es-419": "PvE_01_Difficulty_05",
+      "tr": "PvE_01_Difficulty_05"
+    },
+    "uniqueId": "Region_PvE_01_Difficulty_05",
+    "regionTags": {
+      "gameplayTags": [
+        {
+          "tagName": "Stat.Theater.PvE01.Difficulty05"
+        }
+      ]
+    },
+    "tileIndices": [
+      4,
+      8,
+      21,
+      22,
+      23,
+      24,
+      45
+    ],
+    "regionThemeIcon": "None",
+    "missionData": {
+      "missionWeights": [
+        {
+          "weight": 1.0,
+          "missionGenerator": "/SaveTheWorld/World/MissionGens/MissionGen_1Gate_Short.MissionGen_1Gate_Short_C"
+        },
+        {
+          "weight": 1.0,
+          "missionGenerator": "/SaveTheWorld/World/MissionGens/MissionGen_2Gates.MissionGen_2Gates_C"
+        },
+        {
+          "weight": 1.0,
+          "missionGenerator": "/SaveTheWorld/World/MissionGens/MissionGen_RetrieveTheData.MissionGen_RetrieveTheData_C"
+        },
+        {
+          "weight": 1.0,
+          "missionGenerator": "/SaveTheWorld/World/MissionGens/MissionGen_LaunchTheBalloon.MissionGen_LaunchTheBalloon_C"
+        }
+      ],
+      "difficultyWeights": [
+        {
+          "weight": 1.0,
+          "difficultyInfo": {
+            "dataTable": "/Script/Engine.DataTable'/SaveTheWorld/Balance/DataTables/GameDifficultyGrowthBounds.GameDifficultyGrowthBounds'",
+            "rowName": "Theater_Start_Zone5"
+          }
+        }
+      ],
+      "numMissionsAvailable": 4,
+      "numMissionsToChange": 4,
+      "missionChangeFrequency": 0.5
+    },
+    "requirements": {
+      "commanderLevel": 0,
+      "personalPowerRating": 0,
+      "maxPersonalPowerRating": 0,
+      "partyPowerRating": 0,
+      "maxPartyPowerRating": 0,
+      "activeQuestDefinitions": [],
+      "questDefinition": "/Script/FortniteGame.FortQuestItemDefinition_Campaign'/SaveTheWorld/Quests/Outpost/OutpostQuest_T1_L5.OutpostQuest_T1_L5'",
+      "objectiveStatHandle": {
+        "dataTable": "None",
+        "rowName": "None"
+      },
+      "uncompletedQuestDefinition": "None",
+      "itemDefinition": "None",
+      "eventFlag": ""
+    },
+    "missionAlertRequirements": [
+      {
+        "categoryName": "StormCategory",
+        "requirements": {
+          "commanderLevel": 0,
+          "personalPowerRating": 0,
+          "maxPersonalPowerRating": 0,
+          "partyPowerRating": 0,
+          "maxPartyPowerRating": 0,
+          "activeQuestDefinitions": [],
+          "questDefinition": "/Script/FortniteGame.FortQuestItemDefinition_Campaign'/SaveTheWorld/Quests/Outpost/OutpostQuest_T1_L4.OutpostQuest_T1_L4'",
+          "objectiveStatHandle": {
+            "dataTable": "None",
+            "rowName": "None"
+          },
+          "uncompletedQuestDefinition": "None",
+          "itemDefinition": "None",
+          "eventFlag": ""
+        }
+      }
+    ]
+  },
+  {
+    "displayName": {
+      "de": "Keine Mission",
+      "ru": "Не миссия",
+      "ko": "미션 아님",
+      "pt-br": "Não-missão",
+      "en": "Non Mission",
+      "it": "Non missione",
+      "fr": "Non mission",
+      "es": "No misión",
+      "ar": "ليست مهمة",
+      "ja": "ミッション外",
+      "pl": "Poza misją",
+      "es-419": "Sin misión",
+      "tr": "Görev Dışı"
+    },
+    "uniqueId": "Region_NonMission",
+    "regionTags": {
+      "gameplayTags": []
+    },
+    "tileIndices": [
+      5,
+      6,
+      7,
+      9,
+      11,
+      13,
+      25,
+      27,
+      31,
+      32,
+      33,
+      34,
+      35,
+      40,
+      41,
+      42,
+      43,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55,
+      56,
+      57,
+      58,
+      59,
+      60,
+      62,
+      63,
+      66,
+      67,
+      68,
+      69,
+      70,
+      71,
+      72,
+      73,
+      74,
+      75,
+      76,
+      77,
+      78,
+      79,
+      80,
+      81,
+      82,
+      83,
+      84,
+      85,
+      87,
+      88,
+      89,
+      90,
+      91,
+      93,
+      94,
+      95,
+      96,
+      97,
+      98,
+      99,
+      100
+    ],
+    "regionThemeIcon": "None",
+    "missionData": {
+      "missionWeights": [],
+      "difficultyWeights": [],
+      "numMissionsAvailable": 0,
+      "numMissionsToChange": 0,
+      "missionChangeFrequency": 0.0
+    },
+    "requirements": {
+      "commanderLevel": 0,
+      "personalPowerRating": 0,
+      "maxPersonalPowerRating": 0,
+      "partyPowerRating": 0,
+      "maxPartyPowerRating": 0,
+      "activeQuestDefinitions": [],
+      "questDefinition": "None",
+      "objectiveStatHandle": {
+        "dataTable": "None",
+        "rowName": "None"
+      },
+      "uncompletedQuestDefinition": "None",
+      "itemDefinition": "None",
+      "eventFlag": ""
+    },
+    "missionAlertRequirements": []
+  },
+  {
+    "displayName": {
+      "en": "PvE_01_Difficulty_05_Group"
+    },
+    "uniqueId": "Region_PvE_01_Difficulty_05_Group",
+    "regionTags": {
+      "gameplayTags": [
+        {
+          "tagName": "Stat.Theater.PvE01.Difficulty05"
+        }
+      ]
+    },
+    "tileIndices": [
+      10
+    ],
+    "regionThemeIcon": "None",
+    "missionData": {
+      "missionWeights": [
+        {
+          "weight": 1.0,
+          "missionGenerator": "/SaveTheWorld/World/MissionGens/MissionGen_1Gate_Group.MissionGen_1Gate_Group_C"
+        },
+        {
+          "weight": 1.0,
+          "missionGenerator": "/SaveTheWorld/World/MissionGens/MissionGen_RetrieveTheData_Group.MissionGen_RetrieveTheData_Group_C"
+        },
+        {
+          "weight": 1.0,
+          "missionGenerator": "/SaveTheWorld/World/MissionGens/MissionGen_RideTheLightning_Group.MissionGen_RideTheLightning_Group_C"
+        },
+        {
+          "weight": 1.0,
+          "missionGenerator": "/STW_Mission_Hunt/MissionGen_HTM.MissionGen_HTM_C"
+        }
+      ],
+      "difficultyWeights": [
+        {
+          "weight": 1.0,
+          "difficultyInfo": {
+            "dataTable": "/Script/Engine.DataTable'/SaveTheWorld/Balance/DataTables/GameDifficultyGrowthBounds.GameDifficultyGrowthBounds'",
+            "rowName": "Theater_Start_Group_Zone5"
+          }
+        }
+      ],
+      "numMissionsAvailable": 2,
+      "numMissionsToChange": 2,
+      "missionChangeFrequency": 0.5
+    },
+    "requirements": {
+      "commanderLevel": 0,
+      "personalPowerRating": 0,
+      "maxPersonalPowerRating": 0,
+      "partyPowerRating": 0,
+      "maxPartyPowerRating": 0,
+      "activeQuestDefinitions": [],
+      "questDefinition": "/Script/FortniteGame.FortQuestItemDefinition_Campaign'/SaveTheWorld/Quests/Outpost/OutpostQuest_T1_L5.OutpostQuest_T1_L5'",
+      "objectiveStatHandle": {
+        "dataTable": "None",
+        "rowName": "None"
+      },
+      "uncompletedQuestDefinition": "None",
+      "itemDefinition": "None",
+      "eventFlag": ""
+    },
+    "missionAlertRequirements": [
+      {
+        "categoryName": "StormCategory",
+        "requirements": {
+          "commanderLevel": 0,
+          "personalPowerRating": 0,
+          "maxPersonalPowerRating": 0,
+          "partyPowerRating": 0,
+          "maxPartyPowerRating": 0,
+          "activeQuestDefinitions": [],
+          "questDefinition": "/Script/FortniteGame.FortQuestItemDefinition_Campaign'/SaveTheWorld/Quests/Outpost/OutpostQuest_T1_L4.OutpostQuest_T1_L4'",
+          "objectiveStatHandle": {
+            "dataTable": "None",
+            "rowName": "None"
+          },
+          "uncompletedQuestDefinition": "None",
+          "itemDefinition": "None",
+          "eventFlag": ""
+        }
+      }
+    ]
+  },
+  {
+    "displayName": {
+      "en": "PvE_01_Difficulty_05_Hard"
+    },
+    "uniqueId": "Region_PvE_01_Difficulty_05_Hard",
+    "regionTags": {
+      "gameplayTags": [
+        {
+          "tagName": "Stat.Theater.PvE02.Difficulty01"
+        }
+      ]
+    },
+    "tileIndices": [
+      12,
+      30
+    ],
+    "regionThemeIcon": "None",
+    "missionData": {
+      "missionWeights": [
+        {
+          "weight": 1.0,
+          "missionGenerator": "/SaveTheWorld/World/MissionGens/MissionGen_T1_VHT_Cat1FtS.MissionGen_T1_VHT_Cat1FtS_C"
+        },
+        {
+          "weight": 1.0,
+          "missionGenerator": "/SaveTheWorld/World/MissionGens/MissionGen_T1_VHT_LtB.MissionGen_T1_VHT_LtB_C"
+        },
+        {
+          "weight": 1.0,
+          "missionGenerator": "/SaveTheWorld/World/MissionGens/MissionGen_T1_VHT_RtD.MissionGen_T1_VHT_RtD_C"
+        }
+      ],
+      "difficultyWeights": [
+        {
+          "weight": 1.0,
+          "difficultyInfo": {
+            "dataTable": "/Script/Engine.DataTable'/SaveTheWorld/Balance/DataTables/GameDifficultyGrowthBounds.GameDifficultyGrowthBounds'",
+            "rowName": "Theater_Normal_Zone1"
+          }
+        }
+      ],
+      "numMissionsAvailable": 2,
+      "numMissionsToChange": 2,
+      "missionChangeFrequency": 0.5
+    },
+    "requirements": {
+      "commanderLevel": 0,
+      "personalPowerRating": 0,
+      "maxPersonalPowerRating": 0,
+      "partyPowerRating": 0,
+      "maxPartyPowerRating": 0,
+      "activeQuestDefinitions": [],
+      "questDefinition": "/Script/FortniteGame.FortQuestItemDefinition_Campaign'/SaveTheWorld/Quests/Outpost/OutpostQuest_T1_L5.OutpostQuest_T1_L5'",
+      "objectiveStatHandle": {
+        "dataTable": "None",
+        "rowName": "None"
+      },
+      "uncompletedQuestDefinition": "None",
+      "itemDefinition": "None",
+      "eventFlag": ""
+    },
+    "missionAlertRequirements": [
+      {
+        "categoryName": "StormCategory",
+        "requirements": {
+          "commanderLevel": 0,
+          "personalPowerRating": 0,
+          "maxPersonalPowerRating": 0,
+          "partyPowerRating": 0,
+          "maxPartyPowerRating": 0,
+          "activeQuestDefinitions": [],
+          "questDefinition": "/Script/FortniteGame.FortQuestItemDefinition_Campaign'/SaveTheWorld/Quests/Outpost/OutpostQuest_T1_L4.OutpostQuest_T1_L4'",
+          "objectiveStatHandle": {
+            "dataTable": "None",
+            "rowName": "None"
+          },
+          "uncompletedQuestDefinition": "None",
+          "itemDefinition": "None",
+          "eventFlag": ""
+        }
+      }
+    ]
+  },
+  {
+    "displayName": {
+      "de": "PvE_01_Difficulty_03",
+      "ru": "PvE_01_Difficulty_03",
+      "ko": "PvE_01_Difficulty_03",
+      "pt-br": "PvE_01_Difficulty_03",
+      "en": "PvE_01_Difficulty_03",
+      "it": "PvE_01_Difficoltà_03",
+      "fr": "PvE_01_Difficulty_03",
+      "es": "PvE_01_Difficulty_03",
+      "ar": "PvE_01_Difficulty_03",
+      "ja": "PvE_01_Difficulty_03",
+      "pl": "PvE_01_Difficulty_03",
+      "es-419": "PvE_01_Difficulty_03",
+      "tr": "PvE_01_Difficulty_03"
+    },
+    "uniqueId": "Region_PvE_01_Difficulty_03",
+    "regionTags": {
+      "gameplayTags": [
+        {
+          "tagName": "Stat.Theater.PvE01.Difficulty03"
+        }
+      ]
+    },
+    "tileIndices": [
+      15,
+      17,
+      19,
+      37,
+      39,
+      86
+    ],
+    "regionThemeIcon": "None",
+    "missionData": {
+      "missionWeights": [
+        {
+          "weight": 1.0,
+          "missionGenerator": "/SaveTheWorld/World/MissionGens/MissionGen_1Gate_Short.MissionGen_1Gate_Short_C"
+        },
+        {
+          "weight": 1.0,
+          "missionGenerator": "/SaveTheWorld/World/MissionGens/MissionGen_RetrieveTheData.MissionGen_RetrieveTheData_C"
+        }
+      ],
+      "difficultyWeights": [
+        {
+          "weight": 1.0,
+          "difficultyInfo": {
+            "dataTable": "/Script/Engine.DataTable'/SaveTheWorld/Balance/DataTables/GameDifficultyGrowthBounds.GameDifficultyGrowthBounds'",
+            "rowName": "Theater_Start_Zone3"
+          }
+        }
+      ],
+      "numMissionsAvailable": 3,
+      "numMissionsToChange": 3,
+      "missionChangeFrequency": 0.5
+    },
+    "requirements": {
+      "commanderLevel": 0,
+      "personalPowerRating": 0,
+      "maxPersonalPowerRating": 0,
+      "partyPowerRating": 0,
+      "maxPartyPowerRating": 0,
+      "activeQuestDefinitions": [],
+      "questDefinition": "/Script/FortniteGame.FortQuestItemDefinition_Campaign'/STW_Missions/Quests/Outpost/OutpostQuest_T1_L3.OutpostQuest_T1_L3'",
+      "objectiveStatHandle": {
+        "dataTable": "None",
+        "rowName": "None"
+      },
+      "uncompletedQuestDefinition": "None",
+      "itemDefinition": "None",
+      "eventFlag": ""
+    },
+    "missionAlertRequirements": [
+      {
+        "categoryName": "StormCategory",
+        "requirements": {
+          "commanderLevel": 0,
+          "personalPowerRating": 0,
+          "maxPersonalPowerRating": 0,
+          "partyPowerRating": 0,
+          "maxPartyPowerRating": 0,
+          "activeQuestDefinitions": [],
+          "questDefinition": "/Script/FortniteGame.FortQuestItemDefinition_Campaign'/SaveTheWorld/Quests/Outpost/OutpostQuest_T1_L2.OutpostQuest_T1_L2'",
+          "objectiveStatHandle": {
+            "dataTable": "None",
+            "rowName": "None"
+          },
+          "uncompletedQuestDefinition": "None",
+          "itemDefinition": "None",
+          "eventFlag": ""
+        }
+      }
+    ]
+  },
+  {
+    "displayName": {
+      "en": "PvE_01_Difficulty_03_Hard"
+    },
+    "uniqueId": "Region_PvE_01_Difficulty_03_Hard",
+    "regionTags": {
+      "gameplayTags": [
+        {
+          "tagName": "Stat.Theater.PvE01.Difficulty04"
+        }
+      ]
+    },
+    "tileIndices": [
+      16
+    ],
+    "regionThemeIcon": "None",
+    "missionData": {
+      "missionWeights": [
+        {
+          "weight": 1.0,
+          "missionGenerator": "/SaveTheWorld/World/MissionGens/MissionGen_T1_MT_Cat1FtS.MissionGen_T1_MT_Cat1FtS_C"
+        },
+        {
+          "weight": 1.0,
+          "missionGenerator": "/SaveTheWorld/World/MissionGens/MissionGen_T1_MT_RtD.MissionGen_T1_MT_RtD_C"
+        },
+        {
+          "weight": 1.0,
+          "missionGenerator": "/SaveTheWorld/World/MissionGens/MissionGen_T1_MT_LtB.MissionGen_T1_MT_LtB_C"
+        }
+      ],
+      "difficultyWeights": [
+        {
+          "weight": 1.0,
+          "difficultyInfo": {
+            "dataTable": "/Script/Engine.DataTable'/SaveTheWorld/Balance/DataTables/GameDifficultyGrowthBounds.GameDifficultyGrowthBounds'",
+            "rowName": "Theater_Start_Zone4"
+          }
+        }
+      ],
+      "numMissionsAvailable": 1,
+      "numMissionsToChange": 1,
+      "missionChangeFrequency": 0.5
+    },
+    "requirements": {
+      "commanderLevel": 0,
+      "personalPowerRating": 0,
+      "maxPersonalPowerRating": 0,
+      "partyPowerRating": 0,
+      "maxPartyPowerRating": 0,
+      "activeQuestDefinitions": [],
+      "questDefinition": "/Script/FortniteGame.FortQuestItemDefinition_Campaign'/SaveTheWorld/Quests/ReactiveQuests/ReactiveQuest_DistressCalls.ReactiveQuest_DistressCalls'",
+      "objectiveStatHandle": {
+        "dataTable": "None",
+        "rowName": "None"
+      },
+      "uncompletedQuestDefinition": "None",
+      "itemDefinition": "None",
+      "eventFlag": ""
+    },
+    "missionAlertRequirements": [
+      {
+        "categoryName": "StormCategory",
+        "requirements": {
+          "commanderLevel": 0,
+          "personalPowerRating": 0,
+          "maxPersonalPowerRating": 0,
+          "partyPowerRating": 0,
+          "maxPartyPowerRating": 0,
+          "activeQuestDefinitions": [],
+          "questDefinition": "/Script/FortniteGame.FortQuestItemDefinition_Campaign'/SaveTheWorld/Quests/Outpost/OutpostQuest_T1_L2.OutpostQuest_T1_L2'",
+          "objectiveStatHandle": {
+            "dataTable": "None",
+            "rowName": "None"
+          },
+          "uncompletedQuestDefinition": "None",
+          "itemDefinition": "None",
+          "eventFlag": ""
+        }
+      }
+    ]
+  },
+  {
+    "displayName": {
+      "en": "PvE_01_Difficulty_04_Hard"
+    },
+    "uniqueId": "Region_PvE_01_Difficulty_04_Hard",
+    "regionTags": {
+      "gameplayTags": [
+        {
+          "tagName": "Stat.Theater.PvE01.Difficulty05"
+        }
+      ]
+    },
+    "tileIndices": [
+      26
+    ],
+    "regionThemeIcon": "None",
+    "missionData": {
+      "missionWeights": [
+        {
+          "weight": 1.0,
+          "missionGenerator": "/SaveTheWorld/World/MissionGens/MissionGen_T1_HT_Cat1FtS.MissionGen_T1_HT_Cat1FtS_C"
+        },
+        {
+          "weight": 1.0,
+          "missionGenerator": "/SaveTheWorld/World/MissionGens/MissionGen_T1_HT_LtB.MissionGen_T1_HT_LtB_C"
+        },
+        {
+          "weight": 1.0,
+          "missionGenerator": "/SaveTheWorld/World/MissionGens/MissionGen_T1_HT_RtD.MissionGen_T1_HT_RtD_C"
+        },
+        {
+          "weight": 1.0,
+          "missionGenerator": "/SaveTheWorld/World/MissionGens/MissionGen_EliminateAndCollect.MissionGen_EliminateAndCollect_C"
+        }
+      ],
+      "difficultyWeights": [
+        {
+          "weight": 1.0,
+          "difficultyInfo": {
+            "dataTable": "/Script/Engine.DataTable'/SaveTheWorld/Balance/DataTables/GameDifficultyGrowthBounds.GameDifficultyGrowthBounds'",
+            "rowName": "Theater_Start_Zone5"
+          }
+        }
+      ],
+      "numMissionsAvailable": 1,
+      "numMissionsToChange": 1,
+      "missionChangeFrequency": 0.5
+    },
+    "requirements": {
+      "commanderLevel": 0,
+      "personalPowerRating": 0,
+      "maxPersonalPowerRating": 0,
+      "partyPowerRating": 0,
+      "maxPartyPowerRating": 0,
+      "activeQuestDefinitions": [],
+      "questDefinition": "/Script/FortniteGame.FortQuestItemDefinition_Campaign'/SaveTheWorld/Quests/Outpost/OutpostQuest_T1_L4.OutpostQuest_T1_L4'",
+      "objectiveStatHandle": {
+        "dataTable": "None",
+        "rowName": "None"
+      },
+      "uncompletedQuestDefinition": "None",
+      "itemDefinition": "None",
+      "eventFlag": ""
+    },
+    "missionAlertRequirements": [
+      {
+        "categoryName": "StormCategory",
+        "requirements": {
+          "commanderLevel": 0,
+          "personalPowerRating": 0,
+          "maxPersonalPowerRating": 0,
+          "partyPowerRating": 0,
+          "maxPartyPowerRating": 0,
+          "activeQuestDefinitions": [],
+          "questDefinition": "/Script/FortniteGame.FortQuestItemDefinition_Campaign'/STW_Missions/Quests/Outpost/OutpostQuest_T1_L3.OutpostQuest_T1_L3'",
+          "objectiveStatHandle": {
+            "dataTable": "None",
+            "rowName": "None"
+          },
+          "uncompletedQuestDefinition": "None",
+          "itemDefinition": "None",
+          "eventFlag": ""
+        }
+      }
+    ]
+  },
+  {
+    "displayName": {
+      "de": "PvE_01_Difficulty_01",
+      "ru": "PvE_01_Difficulty_01",
+      "ko": "PvE_01_Difficulty_01",
+      "pt-br": "PvE_01_Difficulty_01",
+      "en": "PvE_01_Difficulty_01",
+      "it": "PvE_01_Difficoltà_01",
+      "fr": "PvE_01_Difficulty_01",
+      "es": "PvE_01_Difficulty_01",
+      "ar": "PvE_01_Difficulty_01",
+      "ja": "PvE_01_Difficulty_01",
+      "pl": "PvE_01_Difficulty_01",
+      "es-419": "PvE_01_Difficulty_01",
+      "tr": "PvE_01_Difficulty_01"
+    },
+    "uniqueId": "Region_PvE_01_Difficulty_01",
+    "regionTags": {
+      "gameplayTags": [
+        {
+          "tagName": "Stat.Theater.PvE01.Difficulty01"
+        }
+      ]
+    },
+    "tileIndices": [
+      28,
+      61,
+      65,
+      92
+    ],
+    "regionThemeIcon": "None",
+    "missionData": {
+      "missionWeights": [
+        {
+          "weight": 1.0,
+          "missionGenerator": "/SaveTheWorld/World/MissionGens/MissionGen_1Gate_Short.MissionGen_1Gate_Short_C"
+        },
+        {
+          "weight": 1.0,
+          "missionGenerator": "/SaveTheWorld/World/MissionGens/MissionGen_RetrieveTheData.MissionGen_RetrieveTheData_C"
+        }
+      ],
+      "difficultyWeights": [
+        {
+          "weight": 1.0,
+          "difficultyInfo": {
+            "dataTable": "/Script/Engine.DataTable'/SaveTheWorld/Balance/DataTables/GameDifficultyGrowthBounds.GameDifficultyGrowthBounds'",
+            "rowName": "Theater_Start_Zone1"
+          }
+        }
+      ],
+      "numMissionsAvailable": 2,
+      "numMissionsToChange": 2,
+      "missionChangeFrequency": 0.5
+    },
+    "requirements": {
+      "commanderLevel": 0,
+      "personalPowerRating": 0,
+      "maxPersonalPowerRating": 0,
+      "partyPowerRating": 0,
+      "maxPartyPowerRating": 0,
+      "activeQuestDefinitions": [],
+      "questDefinition": "/Script/FortniteGame.FortQuestItemDefinition_Campaign'/SaveTheWorld/Quests/Outpost/OutpostQuest_T1_L1.OutpostQuest_T1_L1'",
+      "objectiveStatHandle": {
+        "dataTable": "None",
+        "rowName": "None"
+      },
+      "uncompletedQuestDefinition": "None",
+      "itemDefinition": "None",
+      "eventFlag": ""
+    },
+    "missionAlertRequirements": []
+  },
+  {
+    "displayName": {
+      "de": "Kritische Mission",
+      "ru": "Важная миссия",
+      "ko": "치명적인 미션",
+      "pt-br": "Missão Crítica",
+      "en": "Critical Mission",
+      "it": "Missione critica",
+      "fr": "Mission critique",
+      "es": "Misión crítica",
+      "ar": "مهمة خطيرة",
+      "ja": "重大なミッション",
+      "pl": "Krytyczna misja",
+      "es-419": "Misión crítica",
+      "tr": "Kritik Görev"
+    },
+    "uniqueId": "Region_CriticalMission",
+    "regionTags": {
+      "gameplayTags": []
+    },
+    "tileIndices": [
+      36
+    ],
+    "regionThemeIcon": "None",
+    "missionData": {
+      "missionWeights": [],
+      "difficultyWeights": [],
+      "numMissionsAvailable": 0,
+      "numMissionsToChange": 0,
+      "missionChangeFrequency": 0.0
+    },
+    "requirements": {
+      "commanderLevel": 0,
+      "personalPowerRating": 0,
+      "maxPersonalPowerRating": 0,
+      "partyPowerRating": 0,
+      "maxPartyPowerRating": 0,
+      "activeQuestDefinitions": [],
+      "questDefinition": "None",
+      "objectiveStatHandle": {
+        "dataTable": "None",
+        "rowName": "None"
+      },
+      "uncompletedQuestDefinition": "None",
+      "itemDefinition": "None",
+      "eventFlag": ""
+    },
+    "missionAlertRequirements": []
+  },
+  {
+    "displayName": {
+      "en": "PvE_01_Difficulty_04_Group"
+    },
+    "uniqueId": "Region_PvE_01_Difficulty_04_Group",
+    "regionTags": {
+      "gameplayTags": [
+        {
+          "tagName": "Stat.Theater.PvE01.Difficulty04"
+        }
+      ]
+    },
+    "tileIndices": [
+      44
+    ],
+    "regionThemeIcon": "None",
+    "missionData": {
+      "missionWeights": [
+        {
+          "weight": 1.0,
+          "missionGenerator": "/SaveTheWorld/World/MissionGens/MissionGen_1Gate_Group.MissionGen_1Gate_Group_C"
+        },
+        {
+          "weight": 1.0,
+          "missionGenerator": "/SaveTheWorld/World/MissionGens/MissionGen_RetrieveTheData_Group.MissionGen_RetrieveTheData_Group_C"
+        },
+        {
+          "weight": 1.0,
+          "missionGenerator": "/SaveTheWorld/World/MissionGens/MissionGen_RideTheLightning_Group.MissionGen_RideTheLightning_Group_C"
+        },
+        {
+          "weight": 1.0,
+          "missionGenerator": "/STW_Mission_Hunt/MissionGen_HTM.MissionGen_HTM_C"
+        }
+      ],
+      "difficultyWeights": [
+        {
+          "weight": 1.0,
+          "difficultyInfo": {
+            "dataTable": "/Script/Engine.DataTable'/SaveTheWorld/Balance/DataTables/GameDifficultyGrowthBounds.GameDifficultyGrowthBounds'",
+            "rowName": "Theater_Start_Group_Zone4"
+          }
+        }
+      ],
+      "numMissionsAvailable": 1,
+      "numMissionsToChange": 1,
+      "missionChangeFrequency": 0.5
+    },
+    "requirements": {
+      "commanderLevel": 0,
+      "personalPowerRating": 0,
+      "maxPersonalPowerRating": 0,
+      "partyPowerRating": 0,
+      "maxPartyPowerRating": 0,
+      "activeQuestDefinitions": [],
+      "questDefinition": "/Script/FortniteGame.FortQuestItemDefinition_Campaign'/SaveTheWorld/Quests/Outpost/OutpostQuest_T1_L4.OutpostQuest_T1_L4'",
+      "objectiveStatHandle": {
+        "dataTable": "None",
+        "rowName": "None"
+      },
+      "uncompletedQuestDefinition": "None",
+      "itemDefinition": "None",
+      "eventFlag": ""
+    },
+    "missionAlertRequirements": [
+      {
+        "categoryName": "StormCategory",
+        "requirements": {
+          "commanderLevel": 0,
+          "personalPowerRating": 0,
+          "maxPersonalPowerRating": 0,
+          "partyPowerRating": 0,
+          "maxPartyPowerRating": 0,
+          "activeQuestDefinitions": [],
+          "questDefinition": "/Script/FortniteGame.FortQuestItemDefinition_Campaign'/STW_Missions/Quests/Outpost/OutpostQuest_T1_L3.OutpostQuest_T1_L3'",
+          "objectiveStatHandle": {
+            "dataTable": "None",
+            "rowName": "None"
+          },
+          "uncompletedQuestDefinition": "None",
+          "itemDefinition": "None",
+          "eventFlag": ""
+        }
+      }
+    ]
+  },
+  {
+    "displayName": {
+      "de": "Außenposten",
+      "ru": "Форпост",
+      "ko": "초소",
+      "pt-br": "Posto Avançado",
+      "en": "Outpost",
+      "it": "Avamposto",
+      "fr": "Avant-poste",
+      "es": "Puesto de avanzada",
+      "ar": "المواقع الأمامية",
+      "ja": "アウトポスト",
+      "pl": "Posterunek",
+      "es-419": "Puesto remoto",
+      "tr": "Karakol"
+    },
+    "uniqueId": "Region_Outpost_PvE_01",
+    "regionTags": {
+      "gameplayTags": []
+    },
+    "tileIndices": [
+      64
+    ],
+    "regionThemeIcon": "None",
+    "missionData": {
+      "missionWeights": [],
+      "difficultyWeights": [],
+      "numMissionsAvailable": 0,
+      "numMissionsToChange": 0,
+      "missionChangeFrequency": 0.0
+    },
+    "requirements": {
+      "commanderLevel": 0,
+      "personalPowerRating": 0,
+      "maxPersonalPowerRating": 0,
+      "partyPowerRating": 0,
+      "maxPartyPowerRating": 0,
+      "activeQuestDefinitions": [],
+      "questDefinition": "None",
+      "objectiveStatHandle": {
+        "dataTable": "None",
+        "rowName": "None"
+      },
+      "uncompletedQuestDefinition": "None",
+      "itemDefinition": "None",
+      "eventFlag": ""
+    },
+    "missionAlertRequirements": []
+  }
+]

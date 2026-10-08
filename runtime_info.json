@@ -1,0 +1,608 @@
+{
+  "theaterType": "Standard",
+  "theaterTags": {
+    "gameplayTags": [
+      {
+        "tagName": "Stat.Theater.PvE01"
+      },
+      {
+        "tagName": "Theater.MainProgression"
+      }
+    ]
+  },
+  "eventDependentTheaterTags": [
+    {
+      "requiredEventFlag": "EventFlag.Anniversary.EnableEnemyVariants",
+      "relatedTag": {
+        "tagName": "SpecialEvent.Variant.Birthday.Sploder"
+      }
+    },
+    {
+      "requiredEventFlag": "EventFlag.Fortnitemares.EnableEnemyVariants",
+      "relatedTag": {
+        "tagName": "SpecialEvent.Variant.Halloween.PumpkinHead"
+      }
+    },
+    {
+      "requiredEventFlag": "EventFlag.WinterFest.EnableEnemyVariants",
+      "relatedTag": {
+        "tagName": "SpecialEvent.Variant.Holiday.BaseHusk"
+      }
+    },
+    {
+      "requiredEventFlag": "EventFlag.WinterFest.EnableEnemyVariants",
+      "relatedTag": {
+        "tagName": "SpecialEvent.Variant.Holiday.Elf"
+      }
+    },
+    {
+      "requiredEventFlag": "EventFlag.WinterFest.EnableEnemyVariants",
+      "relatedTag": {
+        "tagName": "SpecialEvent.Variant.Holiday.Lobber"
+      }
+    },
+    {
+      "requiredEventFlag": "EventFlag.WinterFest.EnableEnemyVariants",
+      "relatedTag": {
+        "tagName": "SpecialEvent.Variant.Holiday.Sploder"
+      }
+    },
+    {
+      "requiredEventFlag": "EventFlag.WinterFest.EnableEnemyVariants",
+      "relatedTag": {
+        "tagName": "SpecialEvent.Variant.Holiday.Krampus"
+      }
+    },
+    {
+      "requiredEventFlag": "EventFlag.LoveStorm.EnableEnemyVariants",
+      "relatedTag": {
+        "tagName": "SpecialEvent.Variant.Valentines.Lobber"
+      }
+    }
+  ],
+  "theaterVisibilityRequirements": {
+    "commanderLevel": 0,
+    "personalPowerRating": 0,
+    "maxPersonalPowerRating": 0,
+    "partyPowerRating": 0,
+    "maxPartyPowerRating": 0,
+    "activeQuestDefinitions": [],
+    "questDefinition": "None",
+    "objectiveStatHandle": {
+      "dataTable": "None",
+      "rowName": "None"
+    },
+    "uncompletedQuestDefinition": "None",
+    "itemDefinition": "None",
+    "eventFlag": ""
+  },
+  "requirements": {
+    "commanderLevel": 0,
+    "personalPowerRating": 0,
+    "maxPersonalPowerRating": 0,
+    "partyPowerRating": 0,
+    "maxPartyPowerRating": 0,
+    "activeQuestDefinitions": [],
+    "questDefinition": "None",
+    "objectiveStatHandle": {
+      "dataTable": "None",
+      "rowName": "None"
+    },
+    "uncompletedQuestDefinition": "None",
+    "itemDefinition": "None",
+    "eventFlag": ""
+  },
+  "requiredSubGameForVisibility": "Invalid",
+  "bOnlyMatchLinkedQuestsToTiles": false,
+  "worldMapPinClass": "/Script/Engine.BlueprintGeneratedClass'/SaveTheWorld/Environments/WorldMap/Blueprints/WM_PinEasy.WM_PinEasy_C'",
+  "theaterImage": "/Script/Engine.Texture2D'/SaveTheWorld/UI/Icons/Icon-TheaterDifficulty-_normal_.Icon-TheaterDifficulty-_normal_'",
+  "theaterImages": {
+    "brush_XXS": {
+      "tintColor": {
+        "specifiedColor": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "colorUseRule": "UseColor_Specified"
+      },
+      "drawAs": "Image",
+      "tiling": "NoTile",
+      "mirroring": "NoMirror",
+      "imageType": "NoImage",
+      "imageSize": {
+        "x": 40,
+        "y": 40
+      },
+      "margin": {
+        "left": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0
+      },
+      "resourceObject": "/Script/Engine.Texture2D'/SaveTheWorld/UI/Icons/Icon-TheaterDifficulty-_normal_.Icon-TheaterDifficulty-_normal_'",
+      "outlineSettings": {
+        "cornerRadii": {
+          "x": 0,
+          "y": 0,
+          "z": 0,
+          "w": 0
+        },
+        "color": {
+          "specifiedColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 0
+          },
+          "colorUseRule": "UseColor_Specified"
+        },
+        "width": 0,
+        "roundingType": "HalfHeightRadius",
+        "bUseBrushTransparency": false
+      },
+      "uVRegion": {
+        "min": {
+          "x": 0,
+          "y": 0
+        },
+        "max": {
+          "x": 0,
+          "y": 0
+        },
+        "bIsValid": false
+      },
+      "bIsDynamicallyLoaded": false,
+      "resourceName": "None"
+    },
+    "brush_XS": {
+      "tintColor": {
+        "specifiedColor": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "colorUseRule": "UseColor_Specified"
+      },
+      "drawAs": "Image",
+      "tiling": "NoTile",
+      "mirroring": "NoMirror",
+      "imageType": "NoImage",
+      "imageSize": {
+        "x": 40,
+        "y": 40
+      },
+      "margin": {
+        "left": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0
+      },
+      "resourceObject": "/Script/Engine.Texture2D'/SaveTheWorld/UI/Icons/Icon-TheaterDifficulty-_normal_.Icon-TheaterDifficulty-_normal_'",
+      "outlineSettings": {
+        "cornerRadii": {
+          "x": 0,
+          "y": 0,
+          "z": 0,
+          "w": 0
+        },
+        "color": {
+          "specifiedColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 0
+          },
+          "colorUseRule": "UseColor_Specified"
+        },
+        "width": 0,
+        "roundingType": "HalfHeightRadius",
+        "bUseBrushTransparency": false
+      },
+      "uVRegion": {
+        "min": {
+          "x": 0,
+          "y": 0
+        },
+        "max": {
+          "x": 0,
+          "y": 0
+        },
+        "bIsValid": false
+      },
+      "bIsDynamicallyLoaded": false,
+      "resourceName": "None"
+    },
+    "brush_S": {
+      "tintColor": {
+        "specifiedColor": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "colorUseRule": "UseColor_Specified"
+      },
+      "drawAs": "Image",
+      "tiling": "NoTile",
+      "mirroring": "NoMirror",
+      "imageType": "NoImage",
+      "imageSize": {
+        "x": 40,
+        "y": 40
+      },
+      "margin": {
+        "left": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0
+      },
+      "resourceObject": "/Script/Engine.Texture2D'/SaveTheWorld/UI/Icons/Icon-TheaterDifficulty-_normal_.Icon-TheaterDifficulty-_normal_'",
+      "outlineSettings": {
+        "cornerRadii": {
+          "x": 0,
+          "y": 0,
+          "z": 0,
+          "w": 0
+        },
+        "color": {
+          "specifiedColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 0
+          },
+          "colorUseRule": "UseColor_Specified"
+        },
+        "width": 0,
+        "roundingType": "HalfHeightRadius",
+        "bUseBrushTransparency": false
+      },
+      "uVRegion": {
+        "min": {
+          "x": 0,
+          "y": 0
+        },
+        "max": {
+          "x": 0,
+          "y": 0
+        },
+        "bIsValid": false
+      },
+      "bIsDynamicallyLoaded": false,
+      "resourceName": "None"
+    },
+    "brush_M": {
+      "tintColor": {
+        "specifiedColor": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "colorUseRule": "UseColor_Specified"
+      },
+      "drawAs": "Image",
+      "tiling": "NoTile",
+      "mirroring": "NoMirror",
+      "imageType": "NoImage",
+      "imageSize": {
+        "x": 40,
+        "y": 40
+      },
+      "margin": {
+        "left": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0
+      },
+      "resourceObject": "/Script/Engine.Texture2D'/SaveTheWorld/UI/Icons/Icon-TheaterDifficulty-_normal_.Icon-TheaterDifficulty-_normal_'",
+      "outlineSettings": {
+        "cornerRadii": {
+          "x": 0,
+          "y": 0,
+          "z": 0,
+          "w": 0
+        },
+        "color": {
+          "specifiedColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 0
+          },
+          "colorUseRule": "UseColor_Specified"
+        },
+        "width": 0,
+        "roundingType": "HalfHeightRadius",
+        "bUseBrushTransparency": false
+      },
+      "uVRegion": {
+        "min": {
+          "x": 0,
+          "y": 0
+        },
+        "max": {
+          "x": 0,
+          "y": 0
+        },
+        "bIsValid": false
+      },
+      "bIsDynamicallyLoaded": false,
+      "resourceName": "None"
+    },
+    "brush_L": {
+      "tintColor": {
+        "specifiedColor": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "colorUseRule": "UseColor_Specified"
+      },
+      "drawAs": "Image",
+      "tiling": "NoTile",
+      "mirroring": "NoMirror",
+      "imageType": "NoImage",
+      "imageSize": {
+        "x": 40,
+        "y": 40
+      },
+      "margin": {
+        "left": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0
+      },
+      "resourceObject": "/Script/Engine.Texture2D'/SaveTheWorld/UI/Icons/Icon-TheaterDifficulty-_normal_.Icon-TheaterDifficulty-_normal_'",
+      "outlineSettings": {
+        "cornerRadii": {
+          "x": 0,
+          "y": 0,
+          "z": 0,
+          "w": 0
+        },
+        "color": {
+          "specifiedColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 0
+          },
+          "colorUseRule": "UseColor_Specified"
+        },
+        "width": 0,
+        "roundingType": "HalfHeightRadius",
+        "bUseBrushTransparency": false
+      },
+      "uVRegion": {
+        "min": {
+          "x": 0,
+          "y": 0
+        },
+        "max": {
+          "x": 0,
+          "y": 0
+        },
+        "bIsValid": false
+      },
+      "bIsDynamicallyLoaded": false,
+      "resourceName": "None"
+    },
+    "brush_XL": {
+      "tintColor": {
+        "specifiedColor": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "colorUseRule": "UseColor_Specified"
+      },
+      "drawAs": "Image",
+      "tiling": "NoTile",
+      "mirroring": "NoMirror",
+      "imageType": "NoImage",
+      "imageSize": {
+        "x": 40,
+        "y": 40
+      },
+      "margin": {
+        "left": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0
+      },
+      "resourceObject": "/Script/Engine.Texture2D'/SaveTheWorld/UI/Icons/Icon-TheaterDifficulty-_normal_.Icon-TheaterDifficulty-_normal_'",
+      "outlineSettings": {
+        "cornerRadii": {
+          "x": 0,
+          "y": 0,
+          "z": 0,
+          "w": 0
+        },
+        "color": {
+          "specifiedColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 0
+          },
+          "colorUseRule": "UseColor_Specified"
+        },
+        "width": 0,
+        "roundingType": "HalfHeightRadius",
+        "bUseBrushTransparency": false
+      },
+      "uVRegion": {
+        "min": {
+          "x": 0,
+          "y": 0
+        },
+        "max": {
+          "x": 0,
+          "y": 0
+        },
+        "bIsValid": false
+      },
+      "bIsDynamicallyLoaded": false,
+      "resourceName": "None"
+    }
+  },
+  "theaterColorInfo": {
+    "bUseDifficultyToDetermineColor": false,
+    "color": {
+      "specifiedColor": {
+        "r": 0.5209959745407104,
+        "g": 1,
+        "b": 0.01298299990594387,
+        "a": 1
+      },
+      "colorUseRule": "UseColor_Specified"
+    }
+  },
+  "socket": "PvE_01",
+  "missionAlertRequirements": {
+    "commanderLevel": 0,
+    "personalPowerRating": 0,
+    "maxPersonalPowerRating": 0,
+    "partyPowerRating": 0,
+    "maxPartyPowerRating": 0,
+    "activeQuestDefinitions": [],
+    "questDefinition": "/Script/FortniteGame.FortQuestItemDefinition_Campaign'/STW_Missions/Quests/Outpost/OutpostQuest_T1_L3.OutpostQuest_T1_L3'",
+    "objectiveStatHandle": {
+      "dataTable": "None",
+      "rowName": "None"
+    },
+    "uncompletedQuestDefinition": "None",
+    "itemDefinition": "None",
+    "eventFlag": ""
+  },
+  "missionAlertCategoryRequirements": [
+    {
+      "missionAlertCategoryName": "GeneralCategory",
+      "bRespectTileRequirements": true,
+      "bAllowQuickplay": false
+    },
+    {
+      "missionAlertCategoryName": "StormCategory",
+      "bRespectTileRequirements": true,
+      "bAllowQuickplay": true
+    },
+    {
+      "missionAlertCategoryName": "MiniBossCategory",
+      "bRespectTileRequirements": true,
+      "bAllowQuickplay": true
+    },
+    {
+      "missionAlertCategoryName": "StormLowCategory",
+      "bRespectTileRequirements": true,
+      "bAllowQuickplay": false
+    },
+    {
+      "missionAlertCategoryName": "GroupMissionCategory",
+      "bRespectTileRequirements": true,
+      "bAllowQuickplay": true
+    },
+    {
+      "missionAlertCategoryName": "MegaAlertCategory",
+      "bRespectTileRequirements": true,
+      "bAllowQuickplay": false
+    },
+    {
+      "missionAlertCategoryName": "NewMissionIntroductionCategory",
+      "bRespectTileRequirements": true,
+      "bAllowQuickplay": true
+    },
+    {
+      "missionAlertCategoryName": "NewBeginningActiveCategory_Easy",
+      "bRespectTileRequirements": true,
+      "bAllowQuickplay": true
+    },
+    {
+      "missionAlertCategoryName": "NewBeginningPassiveCategoryA_Easy",
+      "bRespectTileRequirements": true,
+      "bAllowQuickplay": false
+    },
+    {
+      "missionAlertCategoryName": "NewBeginningPassiveCategoryB_Easy",
+      "bRespectTileRequirements": true,
+      "bAllowQuickplay": false
+    },
+    {
+      "missionAlertCategoryName": "AdventureActiveCategory_Easy",
+      "bRespectTileRequirements": true,
+      "bAllowQuickplay": true
+    },
+    {
+      "missionAlertCategoryName": "AdventurePassiveCategoryA_Easy",
+      "bRespectTileRequirements": true,
+      "bAllowQuickplay": false
+    },
+    {
+      "missionAlertCategoryName": "RoadTripActiveCategory_Easy",
+      "bRespectTileRequirements": true,
+      "bAllowQuickplay": true
+    },
+    {
+      "missionAlertCategoryName": "RoadTripPassiveCategoryA_Easy",
+      "bRespectTileRequirements": true,
+      "bAllowQuickplay": false
+    },
+    {
+      "missionAlertCategoryName": "RoadTripPassiveCategoryB_Easy",
+      "bRespectTileRequirements": true,
+      "bAllowQuickplay": false
+    },
+    {
+      "missionAlertCategoryName": "FortnitemareActiveCategory_Easy",
+      "bRespectTileRequirements": true,
+      "bAllowQuickplay": true
+    },
+    {
+      "missionAlertCategoryName": "FortnitemarePassiveCategoryA_Easy",
+      "bRespectTileRequirements": true,
+      "bAllowQuickplay": false
+    },
+    {
+      "missionAlertCategoryName": "WinterfestActiveCategory_Easy",
+      "bRespectTileRequirements": true,
+      "bAllowQuickplay": true
+    },
+    {
+      "missionAlertCategoryName": "WinterfestPassiveCategoryA_Easy",
+      "bRespectTileRequirements": true,
+      "bAllowQuickplay": false
+    },
+    {
+      "missionAlertCategoryName": "WinterfestPassiveCategoryB_Easy",
+      "bRespectTileRequirements": true,
+      "bAllowQuickplay": false
+    }
+  ],
+  "gameplayModifierList": [
+    {
+      "eventFlagName": "EventFlag.Chrysus",
+      "gameplayModifier": "/Script/FortniteGame.FortGameplayModifierItemDefinition'/SaveTheWorld/Items/GameplayModifiers/Chrysus_Modifiers/GM_Chrysus_EnemyMod.GM_Chrysus_EnemyMod'"
+    },
+    {
+      "eventFlagName": "EventFlag.Chrysus.Modifier1",
+      "gameplayModifier": "/Script/FortniteGame.FortGameplayModifierItemDefinition'/SaveTheWorld/Items/GameplayModifiers/Phoenix_Modifiers/GM_Phoenix_SuperHeroic.GM_Phoenix_SuperHeroic'"
+    },
+    {
+      "eventFlagName": "EventFlag.Chrysus.Modifier2",
+      "gameplayModifier": "/Script/FortniteGame.FortGameplayModifierItemDefinition'/SaveTheWorld/Items/GameplayModifiers/Phoenix_Modifiers/GM_Phoenix_SuperConstructor.GM_Phoenix_SuperConstructor'"
+    },
+    {
+      "eventFlagName": "EventFlag.Chrysus.Modifier3",
+      "gameplayModifier": "/Script/FortniteGame.FortGameplayModifierItemDefinition'/SaveTheWorld/Items/GameplayModifiers/Phoenix_Modifiers/GM_Phoenix_SuperOutlander.GM_Phoenix_SuperOutlander'"
+    },
+    {
+      "eventFlagName": "EventFlag.Chrysus.Modifier4",
+      "gameplayModifier": "/Script/FortniteGame.FortGameplayModifierItemDefinition'/SaveTheWorld/Items/GameplayModifiers/Phoenix_Modifiers/GM_Phoenix_SuperNinja.GM_Phoenix_SuperNinja'"
+    }
+  ]
+}
